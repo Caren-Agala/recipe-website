@@ -362,6 +362,11 @@ Page
 */
 .page {
   background-color: red;
+  width: 90vw;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding-top: 2rem;
+  min-height: calc(100vh - (6rem + 4rem));
 }
 /*
 =============== 
@@ -376,8 +381,15 @@ Footer
   align-items: center;
   justify-content: center;
 }
+.page-footer p{
+  margin-bottom: 0;
+}
+.footer-logo,
+.page-footer a {
+  color: var(--primary-500);
+}
 /*
 =============== 
-Footer
+
 ===============
 */
